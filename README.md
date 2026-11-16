@@ -4,11 +4,24 @@ A single-page portfolio concept for Ahmed Zuhair. A real-time WebGL tornado at n
 
 Everything lives in one file, [`index.html`](index.html). No build step, no bundler, no npm.
 
+**Live:** <https://irfy2k.github.io/storm/>
+
+![A tornado over a wheat field at dusk, with a farmhouse, windmill and power line in the foreground](screenshots/01-distance.jpg)
+
 ## Concept
 
 The page opens on a distant supercell over open grass. Scrolling moves the camera toward the funnel while three captions fade in on the way: a summary, selected work, and contact.
+## Screenshots
+
+| Approach | Selected work |
+|---|---|
+| ![Summary caption over the farmhouse and pickup truck](screenshots/02-approach.jpg) | ![Selected work list over the same scene](screenshots/03-work.jpg) |
+
+![Inside the funnel, with the contact caption](screenshots/04-contact.jpg)
+
 ## What is in the scene
 
+- A farmhouse with lit windows, a windmill, a power line and a pickup truck in a wheat field
 - Procedural sky, lightning flashes and a rotating cloud ceiling, all in GLSL
 - Volumetric funnel drawn by a fragment shader on a box volume
 - Debris particles and additive wind streaks
